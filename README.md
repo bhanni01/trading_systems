@@ -1,6 +1,7 @@
 # trading_systems
 
-Few trading systems implemented using python
+Few trading systems implemented using python 
+overtime i want to implement all these trading strategies https://medium.com/automation-generation/ultimate-list-of-automated-trading-strategies-you-should-know-part-1-c9a333f58930
 we will implement trading systems like:
 # Market making 
 
