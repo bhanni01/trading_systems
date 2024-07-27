@@ -8,3 +8,4 @@ we will implement trading systems like:
 - bid are the good place to enter the market, buy the stock
 - ask are the good place to leave the market, sell the stock
 - there is annoted graph where you can see the 20 days macd and bid and ask spots , utilize that!
+- 

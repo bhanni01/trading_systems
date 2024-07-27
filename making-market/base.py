@@ -53,4 +53,19 @@ plt.ylabel('Value')
 plt.title('Daily returns, 20-day moving average, Bid, and Ask')
 plt.show()
 
+data['Profit/Loss']= np.where(data['Bid'].shift(1) > 0 , data['Ask']-data['Bid'].shift(1),0)
+data['Cumulative Profit/Loss']= data['Profit/Loss'].cumsum()
+
+plt.scatter(data.index, data['Cumulative Profit/Loss'])
+container = set()
+
+for xi,yi, text in zip(data.index,data['Cumulative Profit/Loss'], data['Cumulative Profit/Loss'].round()):
+    if text not in container:
+        plt.annotate(text, xy=(xi,yi),fontsize = 8,fontweight='bold' ,xycoords='data',xytext=(.5,.5),textcoords='offset points') 
+        container.add(text)
+plt.xlabel('date')
+plt.ylabel('profit/loss')
+plt.title('cumulative profit/loss')
+plt.show()
+
 
