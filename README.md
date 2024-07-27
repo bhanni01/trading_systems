@@ -2,7 +2,7 @@
 
 Few trading systems implemented using python
 we will implement trading systems like:
-**\*\***----Market making ----**\***
+# Market making 
 
 - calculates the closing price of everyday and maps it with 20 days moving average
 - bid are the good place to enter the market, buy the stock
