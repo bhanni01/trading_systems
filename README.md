@@ -1,8 +1,10 @@
 # trading_systems
 
-Few trading systems implemented using python 
+trading systems implemented using python 
 overtime i want to implement all these trading strategies https://medium.com/automation-generation/ultimate-list-of-automated-trading-strategies-you-should-know-part-1-c9a333f58930
-we will implement trading systems like:
+
+In the long run all this trading strategies features will be placed in the public site so anyone can use it , i will not be liable for any profit or loss, and by no means i am asking you to buy any stock. All these stratigies are implemented for educational purposes.
+
 # Market making 
 
 - calculates the closing price of everyday and maps it with 20 days moving average
