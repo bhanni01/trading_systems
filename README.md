@@ -10,3 +10,7 @@ we will implement trading systems like:
 - ask are the good place to leave the market, sell the stock
 - there is annoted graph where you can see the 20 days macd and bid and ask spots , utilize that!
 - profit loss calcuated and placed in graph over time
+
+# Time series momentum
+- trying to find the best time to buy and sell the stock using 30 day moving average for volume and price
+- yet to work on the backtracking to verify if the algorithm is profitable or not
