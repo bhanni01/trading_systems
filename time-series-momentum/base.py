@@ -34,4 +34,7 @@ plt.show()
 df['priceLowerThanMavg']= df['stockMovingAverage'].gt(df['Adj Close'])
 df['volumeHigherThanMavg']=df['volumeMovingAverage'].gt(df['Volume'])
 
-print(df)
+# calculating the return
+
+z =1 
+PL = 0.00
